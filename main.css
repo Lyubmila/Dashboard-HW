@@ -1,0 +1,81 @@
+:root {
+    --dark-cerulean: #124e78;
+    --maastricht-blue: #0b132b;
+    --yankees-blue: #1C2541;
+  }
+  
+  html {
+    background: var(--yankees-blue);
+  }
+  body {
+    background: #1C2541;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    background: var(--yankees-blue);
+    justify-content: flex-start;
+    height: 100vh;
+    gap: 16px;
+    padding: 16px 48px;
+  
+  }
+
+  .dashboard {
+    background: lightgrey;
+    width: 250px;
+    height: 100vh;
+  }
+
+  .info {
+    display: flex;
+    gap: 16px;
+    height: 200px;
+  
+  }
+
+  .info > div {
+    flex: 1;
+    background: lightgray;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .visitors {
+    height: calc(100% - 216px);
+    background: lightgray;
+    margin-top: 16px;
+  }
+
+  .visitors > div {
+    width: calc(100% - 40px);
+    min-height: 300px;
+    background: rgb(105, 103, 103);
+    margin: 40px 20px 20px 20px;
+  }
+  
+
+  h1, h2 {
+    flex-basis: 60%;
+    color: var(--dark-cerulean);
+    text-align: center;
+  }
+
+  h3 {
+    color: var(--dark-cerulean);
+    margin-left: 12px;
+    
+  }
+
+  .list{
+    display: block;
+    margin-top: 100px;
+    
+    list-style-type: none;
+}
